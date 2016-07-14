@@ -2,7 +2,7 @@
 
 A component for using [ChartBuilder](http://quartz.github.io/Chartbuilder) charts in AFrame.
 
-Here is a [basic example](http://impronunciable.github.io/aframe-chartbuilder-component/examples/basic)
+Here is a [basic example](http://impronunciable.github.io/aframe-chartbuilder-component/basic)
 
 ### Properties
 
