@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/ngokevin/aframe-chartbuilder-component#readme",
   "devDependencies": {
-    "aframe": "^0.2.0",
+    "aframe": "^0.5.0",
     "browserify": "^13.0.0",
     "browserify-css": "^0.9.1",
     "budo": "^8.2.2",
@@ -53,7 +53,6 @@
   },
   "dependencies": {
     "aframe-meshline-component": "^0.2.0",
-    "aframe-text-component": "^0.3.0",
     "d3": "^4.1.1"
   }
 }

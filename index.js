@@ -1,7 +1,6 @@
 
   /* Module dependencies */
   require('aframe-meshline-component');
-  require('aframe-text-component');
   var d3 = require('d3');
 
   /**
@@ -90,9 +89,8 @@ var margin = .5;
         + ' color: #ccc;')
         .selectAll('a-entity').data(this.chartData.scale.primaryScale.tickValues)
         .enter().append('a-entity')
-          .attr('material', 'color: #333')
-          .attr('text', function(d) { return 'size: 0.2; text: ' + d; })
-          .attr('position', function(d, i) { return '-.6 ' + yScale(d) + ' 0' });
+          .attr('text', function(d) { return 'value: ' + d + '; font: roboto; color: #333; width: 4; baseline: top; anchor: left;'; })
+          .attr('position', function(d, i) { return '-.6 ' + (yScale(d) + margin) + ' 0' });
 
       // X axis
       container.append('a-entity')
